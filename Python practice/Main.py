@@ -1,1 +1,4 @@
-response = input("Would you like food? (y/n): ")
+# Python temperature convesion
+
+unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
+temp = float(input("Enter the temperature:"))

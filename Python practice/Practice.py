@@ -220,3 +220,80 @@ elif age < 0:
     print("You haven't been born yet!")
 else: 
     print("You must be 18 or over!")
+
+#food
+response = input("Would you like food? (Y/N): ")
+
+if response == "Y": #comparison operator checks 2 values are equal
+    print("Have some food!")
+else:
+    print("No food for you!")
+
+# name
+name = input("Enter your name: ")
+
+if name == "":
+    print("You didn't enter a name.")
+else:
+    print(f"Your name is, {name}")
+
+#for_sale
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
+else:
+    print("This item is not for sale")
+
+
+
+
+# Lesson 8: calculator
+
+# Python calculator
+
+operator = input("Enter an operator (+ - * /): ")
+num1 = float(input("Enter the 1st number: "))
+num2 = float(input("Enter the 2nd number: "))
+
+if operator == "+":
+    result = num1 + num2
+    print(f"Your answer is: {round(result, 3)}")
+elif operator == "-":
+    result = num1 - num2
+    print(f"Your answer is: {round(result, 3)}")    
+elif operator == "*":
+    result = num1 * num2
+    print(f"Your answer is: {round(result, 3)}")
+elif operator == "/":
+    result = num1 / num2
+    print(f"Your answer is: {round(result, 3)}")
+else:
+    print(f"{operator} is not valid operator")
+
+
+
+# Lesson 9: weight conversion program
+
+# Python weight converter
+
+# Python weight converter
+
+weight = float(input("Enter your weight: "))
+unit = input("Kilograms or Pounds? (K or L): ")
+
+if unit == "K":
+    weight = weight * 2.205
+    unit = "Lbs."
+    print(f"Yor weight is: {round(weight, 1)} {unit}")
+elif unit == "L":
+    weight = weight / 2.205
+    unit = "Kgs."
+    print(f"Yor weight is: {round(weight, 1)} {unit}")
+else:
+    print(f"{unit} was not valid")
+
+
+
+# Lesson 10: temperature conversion program
+
